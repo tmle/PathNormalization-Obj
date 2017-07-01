@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		326E2E9F1F0800F6004A9D81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 326E2E9E1F0800F6004A9D81 /* main.m */; };
+		326E2EA21F0800F6004A9D81 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 326E2EA11F0800F6004A9D81 /* AppDelegate.m */; };
+		326E2EA51F0800F6004A9D81 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 326E2EA41F0800F6004A9D81 /* ViewController.m */; };
+		326E2EA81F0800F7004A9D81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 326E2EA61F0800F7004A9D81 /* Main.storyboard */; };
+		326E2EAA1F0800F8004A9D81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 326E2EA91F0800F8004A9D81 /* Assets.xcassets */; };
+		326E2EAD1F0800F8004A9D81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 326E2EAB1F0800F8004A9D81 /* LaunchScreen.storyboard */; };
+		326E2EB61F08013A004A9D81 /* RemoveDot.m in Sources */ = {isa = PBXBuildFile; fileRef = 326E2EB51F08013A004A9D81 /* RemoveDot.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		326E2E9A1F0800F5004A9D81 /* MyFitnessPal-ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MyFitnessPal-ObjC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		326E2E9E1F0800F6004A9D81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		326E2EA01F0800F6004A9D81 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		326E2EA11F0800F6004A9D81 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		326E2EA31F0800F6004A9D81 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		326E2EA41F0800F6004A9D81 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		326E2EA71F0800F7004A9D81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		326E2EA91F0800F8004A9D81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		326E2EAC1F0800F8004A9D81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		326E2EAE1F0800F8004A9D81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		326E2EB41F08013A004A9D81 /* RemoveDot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoveDot.h; sourceTree = "<group>"; };
+		326E2EB51F08013A004A9D81 /* RemoveDot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoveDot.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		326E2E971F0800F5004A9D81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		326E2E911F0800F5004A9D81 = {
+			isa = PBXGroup;
+			children = (
+				326E2E9C1F0800F6004A9D81 /* MyFitnessPal-ObjC */,
+				326E2E9B1F0800F5004A9D81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		326E2E9B1F0800F5004A9D81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				326E2E9A1F0800F5004A9D81 /* MyFitnessPal-ObjC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		326E2E9C1F0800F6004A9D81 /* MyFitnessPal-ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				326E2EA01F0800F6004A9D81 /* AppDelegate.h */,
+				326E2EA11F0800F6004A9D81 /* AppDelegate.m */,
+				326E2EA31F0800F6004A9D81 /* ViewController.h */,
+				326E2EA41F0800F6004A9D81 /* ViewController.m */,
+				326E2EB41F08013A004A9D81 /* RemoveDot.h */,
+				326E2EB51F08013A004A9D81 /* RemoveDot.m */,
+				326E2EA61F0800F7004A9D81 /* Main.storyboard */,
+				326E2EA91F0800F8004A9D81 /* Assets.xcassets */,
+				326E2EAB1F0800F8004A9D81 /* LaunchScreen.storyboard */,
+				326E2EAE1F0800F8004A9D81 /* Info.plist */,
+				326E2E9D1F0800F6004A9D81 /* Supporting Files */,
+			);
+			path = "MyFitnessPal-ObjC";
+			sourceTree = "<group>";
+		};
+		326E2E9D1F0800F6004A9D81 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				326E2E9E1F0800F6004A9D81 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		326E2E991F0800F5004A9D81 /* MyFitnessPal-ObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 326E2EB11F0800F8004A9D81 /* Build configuration list for PBXNativeTarget "MyFitnessPal-ObjC" */;
+			buildPhases = (
+				326E2E961F0800F5004A9D81 /* Sources */,
+				326E2E971F0800F5004A9D81 /* Frameworks */,
+				326E2E981F0800F5004A9D81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MyFitnessPal-ObjC";
+			productName = "MyFitnessPal-ObjC";
+			productReference = 326E2E9A1F0800F5004A9D81 /* MyFitnessPal-ObjC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		326E2E921F0800F5004A9D81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Lac Viet Inc.";
+				TargetAttributes = {
+					326E2E991F0800F5004A9D81 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 8KD2N297A7;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 326E2E951F0800F5004A9D81 /* Build configuration list for PBXProject "MyFitnessPal-ObjC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 326E2E911F0800F5004A9D81;
+			productRefGroup = 326E2E9B1F0800F5004A9D81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				326E2E991F0800F5004A9D81 /* MyFitnessPal-ObjC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		326E2E981F0800F5004A9D81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				326E2EAD1F0800F8004A9D81 /* LaunchScreen.storyboard in Resources */,
+				326E2EAA1F0800F8004A9D81 /* Assets.xcassets in Resources */,
+				326E2EA81F0800F7004A9D81 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		326E2E961F0800F5004A9D81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				326E2EA51F0800F6004A9D81 /* ViewController.m in Sources */,
+				326E2EA21F0800F6004A9D81 /* AppDelegate.m in Sources */,
+				326E2E9F1F0800F6004A9D81 /* main.m in Sources */,
+				326E2EB61F08013A004A9D81 /* RemoveDot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		326E2EA61F0800F7004A9D81 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				326E2EA71F0800F7004A9D81 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		326E2EAB1F0800F8004A9D81 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				326E2EAC1F0800F8004A9D81 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		326E2EAF1F0800F8004A9D81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		326E2EB01F0800F8004A9D81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		326E2EB21F0800F8004A9D81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8KD2N297A7;
+				INFOPLIST_FILE = "MyFitnessPal-ObjC/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thinhmle.MyFitnessPal-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		326E2EB31F0800F8004A9D81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8KD2N297A7;
+				INFOPLIST_FILE = "MyFitnessPal-ObjC/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thinhmle.MyFitnessPal-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		326E2E951F0800F5004A9D81 /* Build configuration list for PBXProject "MyFitnessPal-ObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				326E2EAF1F0800F8004A9D81 /* Debug */,
+				326E2EB01F0800F8004A9D81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		326E2EB11F0800F8004A9D81 /* Build configuration list for PBXNativeTarget "MyFitnessPal-ObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				326E2EB21F0800F8004A9D81 /* Debug */,
+				326E2EB31F0800F8004A9D81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 326E2E921F0800F5004A9D81 /* Project object */;
+}
