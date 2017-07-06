@@ -10,6 +10,19 @@
 
 @implementation RemoveDot
 
+- (NSMutableString *)removeDot3:(NSMutableString *)path {
+    
+    [path replaceOccurrencesOfString:@"/../" withString:@"/" options:0 range:NSMakeRange(0,path.length)];
+    [path replaceOccurrencesOfString:@"/./" withString:@"/" options:0 range:NSMakeRange(0,path.length)];
+    [path replaceOccurrencesOfString:@"../" withString:@"/" options:0 range:NSMakeRange(0,path.length)];
+    [path replaceOccurrencesOfString:@"./" withString:@"/" options:0 range:NSMakeRange(0,path.length)];
+
+    //NSLog(@"newPath3  = %@\n", newPath);
+    
+    return path;
+    
+}
+
 - (NSMutableString *)removeDot2:(NSMutableString *)path {
     int i;
     int pathLen = (int)path.length;

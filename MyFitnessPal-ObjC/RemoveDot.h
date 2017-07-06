@@ -12,5 +12,6 @@
 
 - (NSMutableString *)removeDot1:(NSMutableString *)path;
 - (NSMutableString *)removeDot2:(NSMutableString *)path;
+- (NSMutableString *)removeDot3:(NSMutableString *)path;
 
 @end
