@@ -16,9 +16,7 @@
     [path replaceOccurrencesOfString:@"/./" withString:@"/" options:0 range:NSMakeRange(0,path.length)];
     [path replaceOccurrencesOfString:@"../" withString:@"/" options:0 range:NSMakeRange(0,path.length)];
     [path replaceOccurrencesOfString:@"./" withString:@"/" options:0 range:NSMakeRange(0,path.length)];
-
-    //NSLog(@"newPath3  = %@\n", newPath);
-    
+        
     return path;
     
 }
